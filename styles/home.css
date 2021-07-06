@@ -1,1 +1,22 @@
 /* add home page styles here */
+#fruits {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#fruits li {
+    width: 100px;
+    height: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#fruits li h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#fruits li img {
+    width: 50%;
+}
