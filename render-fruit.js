@@ -11,7 +11,7 @@ export function renderFruit(fruit){
     fruitSpan.textContent = `$${fruit.price}`;
     
     const button = document.createElement('button');
-    button.textContent = "Add to Cart";
+    button.textContent = 'Add to Cart';
     
     fruitLI.appendChild(fruith3);
     fruitLI.appendChild(fruitImg);

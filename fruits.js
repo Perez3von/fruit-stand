@@ -74,29 +74,14 @@ const orange = {
     cost: .75
 };
 
-const pineapple = {
-    id: 'pineapple',
-    name: 'Pineapple',
-    image: 'pineapple.png',
-    description: 'Please peel before eating',
-    category: 'ground',
-    price: 1.50,
-    cost: .75
-};
-
 const fruits = [
-    {
-        id: 'apple',
-        name: 'Red Apple',
-        image: 'apple.png',
-        description: 'A sweet, delicious, forbidden-to-some treat',
-        category: 'tree-fruit',
-        price: 1.00,
-        cost: 0.25
-    },
+    apple,
     banana,
     blueberry,
-    cherry
+    cherry,
+    greenApple,
+    mango,
+    orange
 ];
 
 export default fruits;
