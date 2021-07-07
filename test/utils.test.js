@@ -48,7 +48,7 @@ test('renderTableRow returns a <tr> element', expect => {
     const appleCart = {
         id: 1,
         qty: 2
-    }
+    };
     const expected = `<tr><td>Red Apple</td><td>$1.00</td><td>2</td><td>$2.00</td></tr>`;
     const dom = renderTableRow(apple, appleCart);
     const html = dom.outerHTML;
@@ -71,5 +71,5 @@ test('getTotal should return the total amount in the cart', expect=>{
 
     const expected = 32;
     const actual = getTotal(data, cart);
-    expect.equal(expected, actual)
-})
+    expect.equal(expected, actual);
+});
