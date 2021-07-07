@@ -1,11 +1,10 @@
-## Making a plan
-1) Make a drawing of your app. Simple "wireframes"
-2) Once you have a drawing, name the HTML elements you'll need to realize your vision
-3) For each HTML element ask: Why do I need this?
-4) Once we know _why_ we need each element, think about how to implement the "Why" as a "How"
-5) Is there some state we need to initialize?
-6) Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
-7) Think about how to validate each of your steps
-8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
-9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
+## E-Commerce Lab
 
+### Day 1 -- Lab 06 -- Adding a Products Page
+* [Code](https://github.com/alchemy-june-demos/fruit-stand/tree/day-01-products-page)
+* [Recording AM](https://alchemycodelab.zoom.us/rec/share/MWU72HKIrAWdOVO2aJXtGwNwT9lBxTNiaoZoqx7Qfbr9vB_5xhhnEdM7pLwVrNtI.RVnCR1y6_u5arWFp?startTime=1625601318000)
+* [Recording PM](https://alchemycodelab.zoom.us/rec/share/1C3c4So0Kabymril_Si_NhaXfQ8vQ4w3p0tZ-gzUt8bNC_ln4K31V8bYR8nE-w2v.jImuJHF1vhUeS3Dz?startTime=1625603789000)
+
+### Day 2 -- Lab 07 -- Adding a Static Cart Page
+* [Code](https://github.com/alchemy-june-demos/fruit-stand/tree/day-02-cart-page)
+* [Recording](https://alchemycodelab.zoom.us/rec/share/C3lWX674fdY595ZviT01lcr7dg-SVafbFyTTMW93Svg6KHnrzar1zilVEf5IdZJ8.WCmnQu60tkMMzZ-T?startTime=1625672877000)
