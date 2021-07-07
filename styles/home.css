@@ -20,3 +20,13 @@
 #fruits li img {
     width: 50%;
 }
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+}
