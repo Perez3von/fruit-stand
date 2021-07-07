@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { findById } from '../utils.js';
+import { findById, getTotal, renderTableRow } from '../utils.js';
 import fruits from '../data/fruits.js';
 
 const test = QUnit.test;
@@ -34,3 +34,42 @@ test('returns fruits by id', expect => {
 
     expect.deepEqual(actual, expected);
 });
+
+test('renderTableRow returns a <tr> element', expect => {
+    const apple = {
+        id: 1,
+        name: 'Red Apple',
+        image: 'apple.png',
+        description: 'A sweet, delicious, forbidden-to-some treat',
+        category: 'tree-fruit',
+        price: 1.00,
+        cost: 0.25
+    };
+    const appleCart = {
+        id: 1,
+        qty: 2
+    }
+    const expected = `<tr><td>Red Apple</td><td>$1.00</td><td>2</td><td>$2.00</td></tr>`;
+    const dom = renderTableRow(apple, appleCart);
+    const html = dom.outerHTML;
+    expect.equal(html, expected);
+});
+
+test('getTotal should return the total amount in the cart', expect=>{
+    const cart = [
+        { id: 1, qty: 4 },
+        { id: 2, qty: 6 }
+    ];
+    const data = [{
+        id: 1,
+        price: 2
+    },
+    {
+        id: 2, 
+        price: 4
+    }];
+
+    const expected = 32;
+    const actual = getTotal(data, cart);
+    expect.equal(expected, actual)
+})
