@@ -1,4 +1,4 @@
-import fruits from './fruits.js';
+import fruits from './data/fruits.js';
 import { renderFruit } from './render-fruit.js';
 console.log(fruits);
 

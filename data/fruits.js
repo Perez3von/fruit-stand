@@ -5,7 +5,7 @@
 // description
 
 const apple = {
-    id: 'apple',
+    id: 1,
     name: 'Red Apple',
     image: 'apple.png',
     description: 'A sweet, delicious, forbidden-to-some treat',
@@ -15,7 +15,7 @@ const apple = {
 };
 
 const banana = {
-    id: 'banana',
+    id: 2,
     name: 'Banana',
     image: 'banana.png',
     description: 'Yellow and slippery',
@@ -25,7 +25,7 @@ const banana = {
 };
 
 const blueberry = {
-    id: 'blueberry',
+    id: 3,
     name: 'Blueberry',
     image: 'blueberry.png',
     description: 'Little round blue gumballs',
@@ -35,7 +35,7 @@ const blueberry = {
 };
 
 const cherry = {
-    id: 'cherry',
+    id: 4,
     name: 'Cherry',
     image: 'cherry.png',
     description: 'July favorite',
@@ -45,7 +45,7 @@ const cherry = {
 };
 
 const greenApple = {
-    id: 'green-apple',
+    id: 5,
     name: 'Green Apple',
     image: 'green-apple.jpg',
     description: 'What granny made pies from',
@@ -55,7 +55,7 @@ const greenApple = {
 };
 
 const mango = {
-    id: 'mango',
+    id: 6,
     name: 'Mango',
     image: 'mango.png',
     description: 'Rhymes with tango',
@@ -65,7 +65,7 @@ const mango = {
 };
 
 const orange = {
-    id: 'orange',
+    id: 7,
     name: 'Orange',
     image: 'orange.png',
     description: 'Please peel before eating',
